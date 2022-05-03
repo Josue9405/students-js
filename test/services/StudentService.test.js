@@ -8,6 +8,6 @@ describe("Prueba de unidad de para StudentService", () => {
     });
     test("2) Estudiantes con créditos mayores a 500", () => {
         const students = Reader.readJsonFile("./test/data/visualpartners.test.json");
-        expect(StudentService.filterByCreditsGreaterThan(students,500).length).toBe(1);
+        expect(StudentService.filterByCreditsGreaterThan(students,500).length).toBe(27);
     });
 });
