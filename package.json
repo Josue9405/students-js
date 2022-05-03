@@ -1,4 +1,21 @@
 {
+  "name": "students-js",
+  "version": "1.0.0",
+  "description": "APIs for query Students",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josue9405/students-js.git"
+  },
+  "keywords": ["javascript", "jest", "express", "server", "launchx"],
+  "author": "Josue Avelar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josue9405/students-js/issues"
+  },
   "dependencies": {
     "jest": "^26.0.0"
   }
