@@ -10,13 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/Josue9405/students-js.git"
   },
-  "keywords": ["javascript", "jest", "express", "server", "launchx"],
+  "keywords": [
+    "javascript",
+    "jest",
+    "express",
+    "server",
+    "launchx"
+  ],
   "author": "Josue Avelar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Josue9405/students-js/issues"
   },
   "dependencies": {
+    "express": "^4.18.1",
     "jest": "^26.0.0"
   }
 }
