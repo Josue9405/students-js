@@ -16,5 +16,5 @@ app.get("/v1/students/:studentname", (request, response) => {
 });
 
 app.listen(port, () => {
-    console.log(`FizzBuzz API in localhost:${port}`);
+    console.log(`Student-JS API in localhost:${port}`);
 });
