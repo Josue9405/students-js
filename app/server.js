@@ -15,6 +15,12 @@ app.get("/v1/students/:studentname", (request, response) => {
     response.json({name: studentname, students: students});
 });
 
+app.get("/v1/students/credits/:credits", (request, response) => {
+    const credits = request.params.credits;
+    const students = StudentController.getStudentsByCredits(credits);
+    response.json({creditsGreaterThan: credits, students: students});
+});
+
 app.listen(port, () => {
     console.log(`Student-JS API in localhost:${port}`);
 });
