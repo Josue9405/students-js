@@ -7,6 +7,6 @@ describe("Prueba de unidad de para StudentController", () => {
     });
     test("2) Estudiantes certificados", () => {
         const students = StudentController.getStudentsByCertification(true);
-        expect(students).toBe(27);
+        expect(students.length).toBe(29);
     });
 });
