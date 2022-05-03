@@ -21,6 +21,12 @@ app.get("/v1/students/credits/:credits", (request, response) => {
     response.json({creditsGreaterThan: credits, students: students});
 });
 
+app.get("/v1/students/certifications/:certification", (request, response) => {
+    const certification = request.params.certification;
+    const students = StudentController.getStudentsByCertification(certification);
+    response.json({haveCertification: certification, students: students});
+});
+
 app.listen(port, () => {
     console.log(`Student-JS API in localhost:${port}`);
 });
