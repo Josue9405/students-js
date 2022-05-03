@@ -1,5 +1,3 @@
-const 
-
 class StudentService{
     static filterByCertification(students, haveCertification){
         if(Array.isArray(students) && explorers.length > 0){
