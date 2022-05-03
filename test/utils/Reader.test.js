@@ -6,7 +6,7 @@ describe("Prueba de unidad de para Reader", () => {
         expect(explorer.length).toBe(0);
     });
     test("2) Leyendo un archivo en blanco", () => {
-        const explorer = JSONReader.readJsonFile("./test/data/explorers_4.test.json");
+        const explorer = JSONReader.readJsonFile("./test/data/blank.test.json");
         expect(explorer).toBe("Error de lectura, archivo en blanco");
     });
     test("3) Archivo inexistente", () => {
