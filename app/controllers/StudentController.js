@@ -6,6 +6,11 @@ class StudentController{
         const students = Reader.readJsonFile("./data/visualpartners.json");
         return StudentService.filterByName(students,name);
     }
+
+    static getStudentsByCredits(credits){
+        const students = Reader.readJsonFile("./data/visualpartners.json");
+        return StudentService.filterByCreditsGreaterThan(students, credits);
+    }
 }
 
 module.exports = StudentController;
