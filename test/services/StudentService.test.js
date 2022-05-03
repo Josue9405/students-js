@@ -10,4 +10,8 @@ describe("Prueba de unidad de para StudentService", () => {
         const students = Reader.readJsonFile("./test/data/visualpartners.test.json");
         expect(StudentService.filterByCreditsGreaterThan(students,500).length).toBe(27);
     });
+    test("3) Obtención de todos los estudiantes", () => {
+        const students = Reader.readJsonFile("./test/data/visualpartners.test.json");
+        expect(StudentService.filterByName(students,"all").length).toBe(27);
+    });
 });
