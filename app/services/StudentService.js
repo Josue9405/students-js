@@ -1,11 +1,15 @@
 Boolean.parse = function (str) {
-    switch (str.toLowerCase ()) {
-        case "true":
-            return true;
-        case "false":
-            return false;
-        default:
-            throw new Error ("Boolean.parse: No se puede convertir la cadena a Booleano");
+    if (typeof str == "string"){
+        switch (str.toLowerCase ()) {
+            case "true":
+                return true;
+            case "false":
+                return false;
+            default:
+                throw new Error ("Boolean.parse: No se puede convertir la cadena a Booleano");
+        }
+    }else if (typeof str == "boolean"){
+        return str
     }
 };
 
