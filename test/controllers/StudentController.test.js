@@ -10,7 +10,7 @@ describe("Prueba de unidad de para StudentController", () => {
         expect(students.length).toBe(29);
     });
     test("3) Obtener todos los estudiantes", () => {
-        const students = StudentController.getStudents("all")
+        const students = StudentController.getStudents("all");
         expect(students.length).toBe(51);
     });
 });
