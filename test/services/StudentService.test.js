@@ -12,6 +12,6 @@ describe("Prueba de unidad de para StudentService", () => {
     });
     test("3) Obtención de todos los estudiantes", () => {
         const students = Reader.readJsonFile("./test/data/visualpartners.test.json");
-        expect(StudentService.filterByName(students,"all").length).toBe(27);
+        expect(StudentService.filterByName(students,"all").length).toBe(51);
     });
 });
