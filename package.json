@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "node ./node_modules/jest/bin/jest.js",
-    "server":"node ./app/server.js"
+    "server": "node ./app/server.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "dependencies": {
     "express": "^4.18.1",
     "jest": "^26.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
   }
 }
