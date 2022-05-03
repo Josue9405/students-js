@@ -14,4 +14,8 @@ describe("Prueba de unidad de para StudentService", () => {
         const students = Reader.readJsonFile("./test/data/visualpartners.test.json");
         expect(StudentService.filterByName(students,"all").length).toBe(51);
     });
+    test("4) Obtención de todos los estudiantes llamados Lucinda", () => {
+        const students = Reader.readJsonFile("./test/data/visualpartners.test.json");
+        expect(StudentService.filterByName(students,"Lucinda").length).toBe(1);
+    });
 });
