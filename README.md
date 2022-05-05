@@ -9,7 +9,7 @@ Proyecto en Node JS y exposición de API a través de Express Server
 - Eslint
 
 # ¿Cómo funciona?
-Para iniciar la aplicación es necesario correr contar con [NodeJS](https://nodejs.org/es/), contando con esta herramienta debemos ejecutar el siguiente comando en el terminal de tu equipo:
+Para iniciar la aplicación es necesario contar con [NodeJS](https://nodejs.org/es/), con esta herramienta debemos ejecutar el siguiente comando en el terminal de tu equipo:
 `npm run server`
 
 Una vez iniciado el aplicativo, veremos en consola el siguiente mensaje:
