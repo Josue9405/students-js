@@ -45,3 +45,8 @@ Como una buena práctica, debemos realizar pruebas de nuestro código. Para ello
 ![student_test_js](https://user-images.githubusercontent.com/26264385/166851290-bddcb432-771b-42d8-bb9e-9971028763c7.gif)
 
 Si todo funciona bien, no te fies, una prueba que no falla al menos una vez, no es óptima.
+
+# ¿Algo no funciona?
+- Que no panda el cunico!
+
+Si tienes dudas o no funciona correctamente, con toda confianza enviame un [ticket de incidencia](https://github.com/Josue9405/students-js/issues/new/choose) y lo revisamos
