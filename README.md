@@ -16,7 +16,7 @@ Una vez iniciado el aplicativo, veremos en consola el siguiente mensaje:
 
 ![image](https://user-images.githubusercontent.com/26264385/166847229-3123dc05-68c9-4ec3-9931-27e082856534.png)
 
-# Concimiento el API
+# Consumiendo el API
 Con la aplicación iniciada, debemos ir a nuestro navegador o aplicación cliente de API de nuestra preferencia, por ejemplo [Postman](https://www.postman.com/), en este proyecto contamos con los siguientes puntos de consumo:
 
 | Endpoint                                             | Ejemplo                                         | 
