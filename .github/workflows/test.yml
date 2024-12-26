@@ -4,8 +4,8 @@ on: [push]
 
 jobs:
   test:
-  runs-on: ubuntu-latest
-  steps:
+    runs-on: ubuntu-latest
+    steps:
     - name: Checkout latest code
       uses: actions/checkout@v4
     - name: Use Node.js 20
